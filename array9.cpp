@@ -8,14 +8,6 @@ In dãy c ra màn hình, sau mỗi phần tử có đúng một dấy cách.
 #include <iostream>
 using namespace std;
 
-int check(int n, int a[]){
-    for(int i = 0; i< n; i++){
-        if(a[i] < a[i-1]){
-            return 0;
-        }
-    }
-    return 1;
-}
 
 int main(){
     int n, m;
