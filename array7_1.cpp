@@ -11,7 +11,7 @@ int main(){
     }
 
     int r;
-    int b[a[n-1]][2];
+    
 
     // sắp xếp lại mảng
     for(int i = 0; i<n; i++){
@@ -24,6 +24,8 @@ int main(){
         }
     }
 
+    int b[a[n-1]][2];
+    
     // biến count để đếm số lần xuất hiện
     // biến k để lưu vị trí của giá trị a[i] và count
     int count, k;
